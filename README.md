@@ -64,7 +64,7 @@ It looks more complex as it really is, the handy function `pkginit add default y
 
 ### autopkginit autoConf.json
 
-`autopkginit` is a tool, written by myself to automate / standardize the creation of `package.json` files with task automation enabled. Like in Substack's blog post [task automation with npm run](http://www.substack.net/task_automation_with_npm_run). You have to pass a config-json to `autopkginit` as well, and it can look like:
+[autopkginit](https://github.com/johannesboyne/autopkginit) is a tool, written by myself to automate / standardize the creation of `package.json` files with task automation enabled. Like in Substack's blog post [task automation with npm run](http://www.substack.net/task_automation_with_npm_run). You have to pass a config-json to `autopkginit` as well, and it can look like:
 
 ```json
 {
@@ -90,7 +90,7 @@ It looks more complex as it really is, the handy function `pkginit add default y
 }
 ```
 
-I really like this configuration...may you like it too. `autopkginit` uses [answerQuestionMapper]() and [json-combinator]() to check what do you want to use from this json and to merge it with the package.json, created by `pkginit`. For example, if you answer like below:
+I really like this configuration...may you like it too. `autopkginit` uses [answer-question-mapper](https://github.com/johannesboyne/answer-question-mapper) and [json-combinator](https://github.com/johannesboyne/json-combinator) to check what do you want to use from this json and to merge it with the package.json, created by `pkginit`. For example, if you answer like below:
 
 ```
 do you want to use browserify? (Y/n) Y
